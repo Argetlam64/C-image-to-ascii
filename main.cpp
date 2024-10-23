@@ -36,7 +36,7 @@ vector<string> getPictures(){
 
         //check if picture is .webp format
         if(getFileType(data) == ".jpg"){
-            //push back just the file name without the ".webp" file extention
+            //push back just the file name without the ".jpg" file extention
             options.push_back(data.substr(0, data.size() - 4));
         }
     }
@@ -104,8 +104,6 @@ void drawPicture(string image){
 }
 
 int main(){
-    cout << "Heigth: " << pictureHeigth << " Width: " << pictureWidth << endl;
-
     //get names of pictures and get 
     vector<string> pictureOptions = getPictures();
 
