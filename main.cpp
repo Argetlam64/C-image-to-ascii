@@ -76,8 +76,6 @@ void drawPicture(string image){
     const char* fileName = image.c_str();
     cout << fileName << endl;
 
-    //fileName = "C:/Users/majve/Desktop/dog2.jpg";
-
     //load the picture
     unsigned char* img = stbi_load(fileName, &width, &heigth, &channels, 0);
     if(img){
