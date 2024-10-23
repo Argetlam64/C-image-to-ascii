@@ -4,8 +4,6 @@
 #include <filesystem>
 #include <vector>
 using namespace std;
-#define pictureWidth 25
-#define pictureHeigth 25
 
 namespace fs = filesystem;
 
